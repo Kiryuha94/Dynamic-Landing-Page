@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body  {
+  font-family: 'Audiowide', cursive;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 97vh;
+}
+
+.day {
+  background-image: url(./img/derevya_solnce_lug_den_14852_1600x1200.jpg);
+  background-position: center;
+  color: burlywood ;
+}
+
+.morning {
+  background-image: url(./img/more_gorizont_nebo_rassvet_118892_1600x1200.jpg);
+  background-position: center;
+}
+
+.night {
+  background-image: url(./img/noch_temnyj_koster_149931_1600x1200.jpg);
+  background-position: center;
+  color: cornflowerblue;
+}
+
+#time {
+  font-size: 7rem;
+  margin: 2rem;
+}
+
+#greeting {
+    font-size: 3rem;
+}
+
+#name {
+    font-size: 3.3rem;
+}
+
+#focus {
+margin-top: 0;
+}
