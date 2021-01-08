@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
       seconds = newData.getSeconds(),
       newHours = hours % 12 || 12,
       amPm = hours >= 12 ? 'PM' : 'AM',
-      addZerro = (n) => (n < 10 ? '0' + n : n)
+      addZerro = (n) => (n < 10 ? `0${n}` : n)
     time.innerHTML = `${newHours}:${addZerro(minutes)}:${addZerro(seconds)} ${amPm}`
   }
 
