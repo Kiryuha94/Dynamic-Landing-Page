@@ -13,6 +13,9 @@ body {
   height: 100vh;
 }
 
+h1 {
+  display: inline;
+}
 span {
   font-size: 2rem;
 }
@@ -20,18 +23,23 @@ span {
 .day {
   background-image: url(./img/derevya_solnce_lug_den_14852_1600x1200.jpg);
   background-position: center;
+  background-size: cover;
   color: burlywood;
 }
 
 .morning {
+  background-repeat: no-repeat;
   background-image: url(./img/more_gorizont_nebo_rassvet_118892_1600x1200.jpg);
   background-position: center;
+
 }
 
 .night {
   background-image: url(./img/noch_temnyj_koster_149931_1600x1200.jpg);
   background-position: center;
   color: cornflowerblue;
+  background-size: cover;
+
 }
 
 #time {
@@ -45,6 +53,7 @@ span {
 
 #name {
   font-size: 3.3rem;
+  font-weight: 900;
 }
 
 #focus {

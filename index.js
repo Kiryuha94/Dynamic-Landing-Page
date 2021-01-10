@@ -1,7 +1,7 @@
 const GREETING_TEXT = {
   morning: 'Good Morning ',
-  day: 'Good Day',
-  night: 'Good Night',
+  day: 'Good Day ',
+  night: 'Good Night ',
 }
 
 const LSItems = {
