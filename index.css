@@ -16,6 +16,7 @@ body {
 h1 {
   display: inline;
 }
+
 span {
   font-size: 2rem;
 }
@@ -31,7 +32,6 @@ span {
   background-repeat: no-repeat;
   background-image: url(./img/more_gorizont_nebo_rassvet_118892_1600x1200.jpg);
   background-position: center;
-
 }
 
 .night {
@@ -39,7 +39,6 @@ span {
   background-position: center;
   color: cornflowerblue;
   background-size: cover;
-
 }
 
 #time {
