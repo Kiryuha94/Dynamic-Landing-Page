@@ -13,10 +13,6 @@ body {
   height: 100vh;
 }
 
-h1 {
-  display: inline;
-}
-
 span {
   font-size: 2rem;
 }
@@ -48,6 +44,7 @@ span {
 
 #greeting {
   font-size: 3rem;
+  display: inline;
 }
 
 #name {
